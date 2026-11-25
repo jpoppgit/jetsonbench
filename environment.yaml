@@ -1,0 +1,6 @@
+name: jetsonbench
+channels:
+  - conda-forge
+dependencies:
+  - compilers   # gcc/g++/gfortran incl. OpenMP (libgomp)
+  - make
